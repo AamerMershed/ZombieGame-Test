@@ -13,7 +13,8 @@ contract KittyInterface {
     uint256 matronId,
     uint256 sireId,
     uint256 generation,
-    
+    uint256
+
   );
 }
 
