@@ -3,7 +3,7 @@
 contract ZombieFactory {
 
     // declare our event here
-     uint dnaDigits = 16;
+     uint dnaDigits = ;
 
    
     uint dnaModulus = 10 ** dnaDigits;
