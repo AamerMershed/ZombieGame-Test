@@ -31,6 +31,7 @@ contract ZombieHelper is ZombieFeeding {
       }
     }
     return result;
+    feedAndMultiply(_zombieId, kittyDna, "kitty");
   }
 
 }
