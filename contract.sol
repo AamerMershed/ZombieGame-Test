@@ -6,7 +6,7 @@ contract ZombieFactory {
      uint dnaDigits = 16;
 
    
-    uint dnaModulus = 1 ** dnaDigits;
+    uint dnaModulus =  ** dnaDigits;
 
     struct Zombie {
         string name;
