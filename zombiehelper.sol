@@ -30,7 +30,7 @@ contract ZombieHelper is ZombieFeeding {
         counter++;
       }
     }
-    return result79;
+    return result7;
     
   }
 
