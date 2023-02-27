@@ -6,7 +6,7 @@ contract ZombieFactory is Ownable {
 
     event NewZombie(uint zombieId, string name, uint dna);
 
-    uint dnaDigits = 160;
+    uint dnaDigits = 1600;
     uint dnaModulus = 10 ** dnaDigits;
     uint cooldownTime = 1 days;
 
