@@ -40,3 +40,27 @@ contract ZombieFactory {
 contract ZombieFeeding is ZombieFactory {
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+​return​ abi​.​encodePacked(
+BITCOIN_SIG_PREFIX_LEN, BITCOIN_SIG_PREFIX_STR, uint8​(​prefixStr​.​length​)​ ​+​ ETH_ADDRESS_HEX_LEN ​+
+​1​ ​+​ CLAIM_PARAM_HASH_HEX_LEN, prefixStr,
+addrStr,
+​"_",
+        claimParamHashStr
+​);
